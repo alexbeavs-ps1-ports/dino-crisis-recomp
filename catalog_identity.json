@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Dino Crisis",
+    "id": "SLUS-00922",
+    "boot_exe": "SLUS_009.22"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Dino Crisis (USA) (Rev 1).cue",
+    "bin_name": "Dino Crisis (USA) (Rev 1) (Track 1).bin",
+    "track_counts": [
+      2
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 379986768,
+      "md5": "35c0b179aa22d83786d30ba8f9466d5e",
+      "sha1": "0ef3326f26f1d97f4ab467023ac6be5e1189a6d3",
+      "crc32": "358ad1eb"
+    },
+    "disc_fp": "839293359a286852164bcc0137f32b5e1d4076f634492f9c416e719cfd5e7279"
+  },
+  "exe": {
+    "load_address": "0x80018000",
+    "entry_pc": "0x8001A1C8",
+    "text_size": "0x00099800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 908,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

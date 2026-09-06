@@ -1,0 +1,31 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Dino Crisis (USA) (Rev 1).cue",
+      "bin_name": "Dino Crisis (USA) (Rev 1) (Track 1).bin",
+      "size": 379986768,
+      "md5": "35c0b179aa22d83786d30ba8f9466d5e",
+      "sha1": "0ef3326f26f1d97f4ab467023ac6be5e1189a6d3",
+      "crc32": "358ad1eb",
+      "track_count": 2,
+      "tracks": [
+        {
+          "name": "Dino Crisis (USA) (Rev 1) (Track 1).bin",
+          "size": "379986768",
+          "crc": "358ad1eb",
+          "md5": "35c0b179aa22d83786d30ba8f9466d5e",
+          "sha1": "0ef3326f26f1d97f4ab467023ac6be5e1189a6d3"
+        },
+        {
+          "name": "Dino Crisis (USA) (Rev 1) (Track 2).bin",
+          "size": "37396800",
+          "crc": "7976083e",
+          "md5": "2d7b5e8e94a91bf5423b2356f6a34863",
+          "sha1": "d9f92af296360772e62caa4cb276de3fa74f5538"
+        }
+      ]
+    }
+  ]
+}

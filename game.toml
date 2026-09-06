@@ -1,0 +1,44 @@
+
+[game]
+name = "Dino Crisis"
+id = "SLUS-00922"
+players = 1
+exe = "disc/SLUS_009.22"
+disc = "disc/Dino Crisis (USA) (Rev 1).cue"
+load_address = "0x80018000"
+entry_pc = "0x8001A1C8"
+text_size = "0x00099800"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Dino Crisis (USA) (Rev 1) (Track 1).bin"
+cue_name = "Dino Crisis (USA) (Rev 1).cue"
+boot_exe = "SLUS_009.22"
+known_sizes = [379986768, 417383568]
+known_md5 = ["35c0b179aa22d83786d30ba8f9466d5e", "f6e7b572f8928e0f39b4c7d20651756d"]
+known_sha1 = ["0ef3326f26f1d97f4ab467023ac6be5e1189a6d3", "b96cfffb96edb578189a5c70a31e378597715721"]
+known_crc32 = ["358ad1eb", "bf74f928"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Dino Crisis Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 2
+required_disc_fp = "839293359a286852164bcc0137f32b5e1d4076f634492f9c416e719cfd5e7279"
